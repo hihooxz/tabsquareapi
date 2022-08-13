@@ -1,0 +1,14 @@
+{
+"respone": {
+    "company": "Tabsquare",
+    "address": "Singapore",
+    "employeeDetails": [
+        { "firstName": "Andre", "lastName": "Wijaya", "DOB": "221150" },
+        {
+            "firstName": "Sam",
+            "lastName": "Smith",
+            "DOB": "512300"
+        }
+    ]
+    }
+}

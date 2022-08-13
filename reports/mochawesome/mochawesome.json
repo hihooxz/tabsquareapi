@@ -1,0 +1,159 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-08-13T14:37:26.472Z",
+    "end": "2022-08-13T14:37:29.953Z",
+    "duration": 3481,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "40b116d0-1559-4a3b-8a84-96677c1156d6",
+      "title": "",
+      "fullFile": "/Users/rikykhoerul/Desktop/tabsquare/test/employee_test.js",
+      "file": "/test/employee_test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "62e4bacd-3464-4746-970c-c921f3dc1773",
+          "title": "@get As a User , I want to be able see data employee tabsquare",
+          "fullFile": "/Users/rikykhoerul/Desktop/tabsquare/test/employee_test.js",
+          "file": "/test/employee_test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "@get As a User, I want to be able got name company",
+              "fullTitle": "@get As a User , I want to be able see data employee tabsquare @get As a User, I want to be able got name company",
+              "timedOut": false,
+              "duration": 1038,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const response = await page.getEmployee();\nassert(response.status).to.equal(200);\nassert(response.body.company).to.equal(data.respone.company);",
+              "err": {},
+              "uuid": "266202c4-b5b2-4a60-a15c-312d4d0c3ac6",
+              "parentUUID": "62e4bacd-3464-4746-970c-c921f3dc1773",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "@get As a User, I want to be able got Address company",
+              "fullTitle": "@get As a User , I want to be able see data employee tabsquare @get As a User, I want to be able got Address company",
+              "timedOut": false,
+              "duration": 822,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const response = await page.getEmployee();\nassert(response.status).to.equal(200);\nassert(response.body.address).to.equal(data.respone.address);",
+              "err": {},
+              "uuid": "286f516f-dc6f-4389-bf4e-8105df29ab08",
+              "parentUUID": "62e4bacd-3464-4746-970c-c921f3dc1773",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "@get As a User, I want to be able got employee details",
+              "fullTitle": "@get As a User , I want to be able see data employee tabsquare @get As a User, I want to be able got employee details",
+              "timedOut": false,
+              "duration": 808,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const response = await page.getEmployee();\nassert(response.status).to.equal(200);\nassert(response.body.employeeDetails[0].firstName).to.equal(data.respone.employeeDetails[0].firstName);\nassert(response.body.employeeDetails[0].lastName).to.equal(data.respone.employeeDetails[0].lastName);\nassert(response.body.employeeDetails[0].DOB).to.equal(data.respone.employeeDetails[0].DOB);",
+              "err": {},
+              "uuid": "bbc7aa3a-a3cb-4589-a885-2281a5cb2a13",
+              "parentUUID": "62e4bacd-3464-4746-970c-c921f3dc1773",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "@get As a User, I want to be able got employee details",
+              "fullTitle": "@get As a User , I want to be able see data employee tabsquare @get As a User, I want to be able got employee details",
+              "timedOut": false,
+              "duration": 806,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const response = await page.getEmployee();\nassert(response.status).to.equal(200);\nassert(response.body.employeeDetails[1].firstName).to.equal(data.respone.employeeDetails[1].firstName);\nassert(response.body.employeeDetails[1].lastName).to.equal(data.respone.employeeDetails[1].lastName);\nassert(response.body.employeeDetails[1].DOB).to.equal(data.respone.employeeDetails[1].DOB);",
+              "err": {},
+              "uuid": "3944755f-6b82-44ee-aa26-982beaae4cc5",
+              "parentUUID": "62e4bacd-3464-4746-970c-c921f3dc1773",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "266202c4-b5b2-4a60-a15c-312d4d0c3ac6",
+            "286f516f-dc6f-4389-bf4e-8105df29ab08",
+            "bbc7aa3a-a3cb-4589-a885-2281a5cb2a13",
+            "3944755f-6b82-44ee-aa26-982beaae4cc5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3474,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 180000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 180000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.0.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "reports/mochawesome/"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
